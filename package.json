@@ -1,0 +1,10 @@
+{
+  "name": "backend-bot-plugin",
+  "version": "1.0.0",
+  "description": "Sistema VIP unificado para Rust + Discord + Backend",
+  "main": "backend/src/server.js",
+  "scripts": {
+    "start:backend": "node backend/src/server.js",
+    "test": "node --test tests/*.test.js"
+  }
+}
